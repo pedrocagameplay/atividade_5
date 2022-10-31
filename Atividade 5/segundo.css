@@ -1,0 +1,72 @@
+#titulo{
+
+    background-color: lightgreen;
+    border: solid black ;
+    color:black ;
+    padding:0;
+    animation-name: none;
+}
+nav ul{
+    
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+}
+menu{
+    background-color: lightgreen;
+}
+header{
+    color: rgb(0, 0, 0);
+    background-color: rgb(79, 172, 235);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: solid red;
+    
+
+}
+header:hover{
+    animation-name:mudar ;
+    background-color: red;
+    border: solid rgb(79, 172, 235);
+    color: white;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes mudar{
+    0%{
+        color:white;
+        background-color: black;
+    }
+    50%{
+        color: blue;
+        background-color: red;
+    }
+    75%{
+        color:red;
+        background-color: orange;
+    }
+    100%{
+        color: green;
+        background-color: lightcyan;
+    }
+}
+#img1{
+    width: 350px;
+    height: 350px;
+}
+#section1{
+    border: solid yellow;
+}
+#div1{
+    display: flex;
+    flex-direction: row;
+}
+#prin{
+    background-color: white;
+    
+}
+#ext{
+    background-color: white;
+}

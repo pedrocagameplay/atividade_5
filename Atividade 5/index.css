@@ -1,0 +1,118 @@
+header{
+    color: rgb(0, 0, 0);
+    background-color: rgb(79, 172, 235);
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: solid red;
+    
+
+}
+header:hover{
+    animation-name:mudar ;
+    background-color: red;
+    border: solid rgb(79, 172, 235);
+    color: white;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ /*cuphead*/
+#section1{
+    
+    
+    font-weight:900;
+    border:red ridge;
+
+}
+/*mugman*/
+#section2{
+    border: solid blue;  
+    font-weight: 900;
+}
+
+#div1{
+    display: flex;
+    text-align:center ;
+    flex-direction: row;
+}
+/*calice*/
+#section3{
+    border: solid yellow;
+    font-weight: 900;
+}
+
+#titulo{
+
+    background-color: lightgreen;
+    border: solid black ;
+    color:black ;
+    padding:0;
+    animation-name: none;
+}
+nav ul{
+    
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+}
+menu{
+    background-color: lightgreen;
+}
+@keyframes mudar{
+    0%{
+        color:white;
+        background-color: black;
+    }
+    50%{
+        color: blue;
+        background-color: red;
+    }
+    75%{
+        color:red;
+        background-color: orange;
+    }
+    100%{
+        color: green;
+        background-color: lightcyan;
+    }
+}
+.cup{
+    
+    height: 70px;
+}
+aside{
+    background-color: black;
+    color: red;
+    text-align: center;
+    border: dashed red;
+}
+iframe{
+    border: solid red;
+    margin-left: 40px;
+}
+#div2{
+    background-color: black;
+    border: dashed red;
+}
+#titulomain{
+    background-color:lightpink;
+    border: solid purple;
+    animation-name: none;
+}
+#img1{
+    margin-left: 240px;
+    border: solid black;
+}
+main{
+    background-color: rgb(255, 206, 240);
+    border: solid purple;
+}
+#prin{
+    background-color: white;
+    
+}
+#ext{
+    background-color: white;
+}
+
